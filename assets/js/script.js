@@ -5,6 +5,7 @@ window.addEventListener('pageshow', () => {
     effect.classList.add("active");
     setTimeout(() => {
         effect.classList.remove("active");
+        effect.style.opacity = 0;
         effect.style.transition = "all ease .5s";
     }, 3000)
 
